@@ -51,7 +51,7 @@ def alert_received():
     raw_json = request.get_json()
     print(raw_json)
 
-    if raw_json["data"]["personEmail"] = "pricelists@webex.bot":
+    if raw_json["data"]["personEmail"] == "pricelists@webex.bot":
         return
 
     message_id = raw_json["data"]["id"]
