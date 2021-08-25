@@ -14,7 +14,7 @@ or implied.
 
 from flask import Flask, request, jsonify
 from webexteamssdk import WebexTeamsAPI
-import os
+import os, csv
 
 # get environment variables
 WT_BOT_TOKEN = os.environ['WT_BOT_TOKEN']
