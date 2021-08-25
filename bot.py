@@ -29,6 +29,20 @@ WT_BOT_EMAIL = os.environ['WT_BOT_EMAIL']
 app = Flask(__name__)
 api = WebexTeamsAPI(access_token=WT_BOT_TOKEN)
 
+# Import csv file with data and translate into a dictionary
+with open('./pricelist.csv', mode='r') as infile:
+    reader = csv.reader(infile)
+    data = list(reader)
+
+countries = {}
+
+for i in data: 
+    split = i[0].split(';')
+    countries[split[0]] = {
+        "code": split[0],
+        "country": split[1],
+        "pl": split[3]
+    }
 
 
 # defining the decorater and route registration for incoming alerts
@@ -37,16 +51,34 @@ def alert_received():
     raw_json = request.get_json()
     print(raw_json)
 
+    if raw_json["data"]["personEmail"] = "pricelists@webex.bot":
+        return
+
     message_id = raw_json["data"]["id"]
-    message = api.messages.get(message_id)
+
+    message = api.messages.get(message_id)["text"]
     print(message)
+    input = message.upper()
+
+
 
     # customize the behaviour of the bot here
-    response = "Hi, I am a Webex Teams bot. Have a great day ☀! "
-
+    response = ""
+    try:
+        if message == "help":
+            response = "Hello, I provide information about what price list to use for a certain country. Simply send me a message like `us` or `Belgium` and I will provide you the price list."
+        elif message.len() == 2:
+            pricelist = countries[input]["pl"]
+            response = "The price list for {} is {}".format(message, pricelist)
+        else: 
+            for i in countries:
+                if countries[i]["country"] == input:
+                    pricelist = countries[i]["pl"]
+                    print(pricelist)
+                    response = "The price list for {} is {}".format(message, pricelist)
+    except:
+        response = "It seems something went wrong or I couldn't find that price list :("
     
-
-
 
 
     # uncomment if you are implementing a controller bot
