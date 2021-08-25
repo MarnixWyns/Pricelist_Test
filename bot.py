@@ -61,9 +61,11 @@ def alert_received():
 
         input = message.upper()
 
+        # Default value if not overwritten
+        response = "It seems I can't find that price list :( "
+        
 
         # customize the behaviour of the bot here
-        response = ""
         try:
             if message == "help":
                 response = "Hello, I provide information about what price list to use for a certain country. Simply send me a message like `us` or `Belgium` and I will provide you the price list."
@@ -78,8 +80,7 @@ def alert_received():
                         response = "The price list for {} is **{}**".format(message, pricelist)
         except Exception as e:
             print(e)
-            response = "It seems something went wrong or I couldn't find that price list :("
-        
+            
 
 
         # uncomment if you are implementing a controller bot
