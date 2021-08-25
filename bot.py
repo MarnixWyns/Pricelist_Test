@@ -76,7 +76,8 @@ def alert_received():
                         pricelist = countries[i]["pl"]
                         print(pricelist)
                         response = "The price list for {} is {}".format(message, pricelist)
-        except:
+        except Exception as e:
+            print(e)
             response = "It seems something went wrong or I couldn't find that price list :("
         
 
