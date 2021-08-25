@@ -49,48 +49,43 @@ for i in data:
 @app.route('/', methods=['POST'])
 def alert_received():
     raw_json = request.get_json()
-    print(raw_json)
 
-    if raw_json["data"]["personEmail"] == "pricelists@webex.bot":
-        return
-
-    message_id = raw_json["data"]["id"]
-
-    message = api.messages.get(message_id).text.strip()
-
-    print(message)
-
-    input = message.upper()
+    if raw_json["data"]["personEmail"] != WT_BOT_EMAIL:
 
 
+        message_id = raw_json["data"]["id"]
 
-    # customize the behaviour of the bot here
-    response = ""
-    try:
-        if message == "help":
-            response = "Hello, I provide information about what price list to use for a certain country. Simply send me a message like `us` or `Belgium` and I will provide you the price list."
-        elif message.len() == 2:
-            pricelist = countries[input]["pl"]
-            response = "The price list for {} is {}".format(message, pricelist)
-        else: 
-            for i in countries:
-                if countries[i]["country"] == input:
-                    pricelist = countries[i]["pl"]
-                    print(pricelist)
-                    response = "The price list for {} is {}".format(message, pricelist)
-    except:
-        response = "It seems something went wrong or I couldn't find that price list :("
-    
+        message = api.messages.get(message_id).text.strip()
+
+        print(message)
+
+        input = message.upper()
 
 
-    # uncomment if you are implementing a controller bot
-    WT_ROOM_ID = raw_json['data']['roomId']
-    personEmail_json = raw_json['data']['personEmail']
-    if personEmail_json != WT_BOT_EMAIL:
-        api.messages.create(roomId=WT_ROOM_ID, markdown=response)
+        # customize the behaviour of the bot here
+        response = ""
+        try:
+            if message == "help":
+                response = "Hello, I provide information about what price list to use for a certain country. Simply send me a message like `us` or `Belgium` and I will provide you the price list."
+            elif message.len() == 2:
+                pricelist = countries[input]["pl"]
+                response = "The price list for {} is {}".format(message, pricelist)
+            else: 
+                for i in countries:
+                    if countries[i]["country"] == input:
+                        pricelist = countries[i]["pl"]
+                        print(pricelist)
+                        response = "The price list for {} is {}".format(message, pricelist)
+        except:
+            response = "It seems something went wrong or I couldn't find that price list :("
+        
 
 
-
+        # uncomment if you are implementing a controller bot
+        WT_ROOM_ID = raw_json['data']['roomId']
+        personEmail_json = raw_json['data']['personEmail']
+        if personEmail_json != WT_BOT_EMAIL:
+            api.messages.create(roomId=WT_ROOM_ID, markdown=response)
 
 
     return jsonify({'success': True})
