@@ -67,7 +67,7 @@ def alert_received():
         try:
             if message == "help":
                 response = "Hello, I provide information about what price list to use for a certain country. Simply send me a message like `us` or `Belgium` and I will provide you the price list."
-            elif message.len() == 2:
+            elif len(message) == 2:
                 pricelist = countries[input]["pl"]
                 response = "The price list for {} is {}".format(message, pricelist)
             else: 
