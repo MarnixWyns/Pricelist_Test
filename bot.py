@@ -60,7 +60,9 @@ def alert_received():
     print("----------------")
     print(message)
     print("----------------")
-    print(message["text"])
+    print(type(message))
+    print(message[0])
+    print(message[0]["text"])
     print("----------------")
 
     message = message["text"]
