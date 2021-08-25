@@ -56,16 +56,9 @@ def alert_received():
 
     message_id = raw_json["data"]["id"]
 
-    message = api.messages.get(message_id)
-    print("----------------")
-    print(message)
-    print("----------------")
-    print(type(message))
-    print(message[0])
-    print(message[0]["text"])
-    print("----------------")
+    message = api.messages.get(message_id).text.strip()
 
-    message = message["text"]
+    print(message)
 
     input = message.upper()
 
