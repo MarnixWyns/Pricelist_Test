@@ -30,28 +30,34 @@ app = Flask(__name__)
 api = WebexTeamsAPI(access_token=WT_BOT_TOKEN)
 
 
+
 # defining the decorater and route registration for incoming alerts
 @app.route('/', methods=['POST'])
 def alert_received():
     raw_json = request.get_json()
     print(raw_json)
 
-    # customize the behaviour of the bot here
-    message = "Hi, I am a Webex Teams bot. Have a great day ☀! "
+    message_id = raw_json["data"]["id"]
+    message = api.messages.get(message_id)
+    print(message)
 
-    # uncomment if you are implementing a notifier bot
-    '''
-    api.messages.create(roomId=WT_ROOM_ID, markdown=message)
-    '''
+    # customize the behaviour of the bot here
+    response = "Hi, I am a Webex Teams bot. Have a great day ☀! "
+
+    
+
+
 
 
     # uncomment if you are implementing a controller bot
-
     WT_ROOM_ID = raw_json['data']['roomId']
     personEmail_json = raw_json['data']['personEmail']
     if personEmail_json != WT_BOT_EMAIL:
-        api.messages.create(roomId=WT_ROOM_ID, markdown=message)
-    
+        api.messages.create(roomId=WT_ROOM_ID, markdown=response)
+
+
+
+
 
     return jsonify({'success': True})
 
