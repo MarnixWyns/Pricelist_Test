@@ -69,13 +69,13 @@ def alert_received():
                 response = "Hello, I provide information about what price list to use for a certain country. Simply send me a message like `us` or `Belgium` and I will provide you the price list."
             elif len(message) == 2:
                 pricelist = countries[input]["pl"]
-                response = "The price list for {} is {}".format(message, pricelist)
+                response = "The price list for `{}` is **{}**".format(message, pricelist)
             else: 
                 for i in countries:
                     if countries[i]["country"] == input:
                         pricelist = countries[i]["pl"]
                         print(pricelist)
-                        response = "The price list for {} is {}".format(message, pricelist)
+                        response = "The price list for `{}` is **{}**".format(message, pricelist)
         except Exception as e:
             print(e)
             response = "It seems something went wrong or I couldn't find that price list :("
