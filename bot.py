@@ -58,7 +58,10 @@ def alert_received():
 
     message = api.messages.get(message_id)
     print(message)
-    
+    print(message["text"])
+
+    message = message["text"]
+
     input = message.upper()
 
 
