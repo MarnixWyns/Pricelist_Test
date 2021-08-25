@@ -1,0 +1,253 @@
+﻿COUNTRY_CODE;COUNTRY;PRICE_LIST_ID;NAME
+AU;AUSTRALIA;1027;Australia Price List Ex-Tax
+AQ;ANTARCTICA;1027;Australia Price List Ex-Tax
+NF;NORFOLK ISLAND;1027;Australia Price List Ex-Tax
+NR;NAURU;1027;Australia Price List Ex-Tax
+PG;PAPUA NEW GUINEA;1027;Australia Price List Ex-Tax
+CX;CHRISTMAS ISLAND;1027;Australia Price List Ex-Tax
+MP;NORTHERN MARIANA ISLANDS;1108;Global Price List
+GU;GUAM;1108;Global Price List
+US;USA;1108;Global Price List
+KH;CAMBODIA (KAMPUCHEA);1441;Global Price List - ASIA-PAC
+BN;BRUNEI;1441;Global Price List - ASIA-PAC
+BT;BHUTAN;1441;Global Price List - ASIA-PAC
+BD;BANGLADESH;1441;Global Price List - ASIA-PAC
+AS;AMERICAN SAMOA;1441;Global Price List - ASIA-PAC
+NU;NIUE;1441;Global Price List - ASIA-PAC
+NZ;NEW ZEALAND;1441;Global Price List - ASIA-PAC
+NC;NEW CALEDONIA;1441;Global Price List - ASIA-PAC
+NP;NEPAL;1441;Global Price List - ASIA-PAC
+MM;MYANMAR;1441;Global Price List - ASIA-PAC
+MN;MONGOLIA;1441;Global Price List - ASIA-PAC
+FM;MICRONESIA;1441;Global Price List - ASIA-PAC
+MH;MARSHALL ISLANDS;1441;Global Price List - ASIA-PAC
+MV;MALDIVES;1441;Global Price List - ASIA-PAC
+MY;MALAYSIA;1441;Global Price List - ASIA-PAC
+TF;FRENCH SOUTHERN TERRITORIES;1441;Global Price List - ASIA-PAC
+PF;FRENCH POLYNESIA;1441;Global Price List - ASIA-PAC
+FJ;FIJI;1441;Global Price List - ASIA-PAC
+TL;EAST TIMOR;1441;Global Price List - ASIA-PAC
+CK;COOK ISLANDS;1441;Global Price List - ASIA-PAC
+CC;COCOS ISLANDS;1441;Global Price List - ASIA-PAC
+MO;MACAU;1441;Global Price List - ASIA-PAC
+LA;LAOS;1441;Global Price List - ASIA-PAC
+KP;KOREA- NORTH;1441;Global Price List - ASIA-PAC
+KI;KIRIBATI;1441;Global Price List - ASIA-PAC
+ID;INDONESIA;1441;Global Price List - ASIA-PAC
+IN;INDIA;1441;Global Price List - ASIA-PAC
+HK;HONG KONG;1441;Global Price List - ASIA-PAC
+HM;HEARD AND MCDONALD ISLANDS;1441;Global Price List - ASIA-PAC
+SB;SOLOMON ISLANDS;1441;Global Price List - ASIA-PAC
+SG;SINGAPORE;1441;Global Price List - ASIA-PAC
+WS;SAMOA;1441;Global Price List - ASIA-PAC
+KR;REPUBLIC OF KOREA;1441;Global Price List - ASIA-PAC
+PN;PITCAIRN;1441;Global Price List - ASIA-PAC
+PH;PHILIPPINES;1441;Global Price List - ASIA-PAC
+WF;WALLIS AND FUTUNA;1441;Global Price List - ASIA-PAC
+VN;VIETNAM;1441;Global Price List - ASIA-PAC
+VU;VANUATU;1441;Global Price List - ASIA-PAC
+TV;TUVALU;1441;Global Price List - ASIA-PAC
+TO;TONGA;1441;Global Price List - ASIA-PAC
+TK;TOKELAU;1441;Global Price List - ASIA-PAC
+TH;THAILAND;1441;Global Price List - ASIA-PAC
+TW;TAIWAN;1441;Global Price List - ASIA-PAC
+LK;SRI LANKA;1441;Global Price List - ASIA-PAC
+PW;PALAU;1441;Global Price List - ASIA-PAC
+BR;BRAZIL;801001111;Global Price List - BRAZIL
+CA;CANADA;1129;Global Price List - CANADA
+BG;BULGARIA;1110;Global Price List - EMEA
+BA;BOSNIA AND HERZEGOVINA;1110;Global Price List - EMEA
+BE;BELGIUM;1110;Global Price List - EMEA
+AT;AUSTRIA;1110;Global Price List - EMEA
+AD;ANDORRA;1110;Global Price List - EMEA
+AL;ALBANIA;1110;Global Price List - EMEA
+NO;NORWAY;1110;Global Price List - EMEA
+NL;NETHERLANDS;1110;Global Price List - EMEA
+MC;MONACO;1110;Global Price List - EMEA
+MT;MALTA;1110;Global Price List - EMEA
+MK;MACEDONIA;1110;Global Price List - EMEA
+GL;GREENLAND;1110;Global Price List - EMEA
+GR;GREECE;1110;Global Price List - EMEA
+GI;GIBRALTAR;1110;Global Price List - EMEA
+DE;GERMANY;1110;Global Price List - EMEA
+FR;FRANCE;1110;Global Price List - EMEA
+FI;FINLAND;1110;Global Price List - EMEA
+FO;FAROE ISLANDS;1110;Global Price List - EMEA
+EE;ESTONIA;1110;Global Price List - EMEA
+DK;DENMARK;1110;Global Price List - EMEA
+CZ;CZECH REPUBLIC;1110;Global Price List - EMEA
+CY;CYPRUS;1110;Global Price List - EMEA
+HR;CROATIA;1110;Global Price List - EMEA
+LU;LUXEMBOURG;1110;Global Price List - EMEA
+LT;LITHUANIA;1110;Global Price List - EMEA
+LI;LIECHTENSTEIN;1110;Global Price List - EMEA
+LS;LESOTHO;1110;Global Price List - EMEA
+LV;LATVIA;1110;Global Price List - EMEA
+IT;ITALY;1110;Global Price List - EMEA
+IL;ISRAEL;1110;Global Price List - EMEA
+IE;IRELAND;1110;Global Price List - EMEA
+IS;ICELAND;1110;Global Price List - EMEA
+HU;HUNGARY;1110;Global Price List - EMEA
+ZA;SOUTH AFRICA;1110;Global Price List - EMEA
+SI;SLOVENIA;1110;Global Price List - EMEA
+SK;SLOVAKIA;1110;Global Price List - EMEA
+CS;SERBIA AND MONTENEGRO;1110;Global Price List - EMEA
+SM;SAN MARINO;1110;Global Price List - EMEA
+RO;ROMANIA;1110;Global Price List - EMEA
+RE;REUNION;1110;Global Price List - EMEA
+PT;PORTUGAL;1110;Global Price List - EMEA
+PL;POLAND;1110;Global Price List - EMEA
+VA;VATICAN CITY;1110;Global Price List - EMEA
+GB;UNITED KINGDOM;1110;Global Price List - EMEA
+CH;SWITZERLAND;1110;Global Price List - EMEA
+SE;SWEDEN;1110;Global Price List - EMEA
+SZ;SWAZILAND;1110;Global Price List - EMEA
+ES;SPAIN;1110;Global Price List - EMEA
+IN;INDIA;13022;Global Price List - INDIA
+CV;CAPE VERDE;800030156;Global Price List Emerging
+CM;CAMEROON;800030156;Global Price List Emerging
+BI;BURUNDI;800030156;Global Price List Emerging
+BF;BURKINA FASO;800030156;Global Price List Emerging
+BW;BOTSWANA;800030156;Global Price List Emerging
+BJ;BENIN;800030156;Global Price List Emerging
+BY;BELARUS;800030156;Global Price List Emerging
+BH;BAHRAIN;800030156;Global Price List Emerging
+AZ;AZERBAIJAN;800030156;Global Price List Emerging
+AM;ARMENIA;800030156;Global Price List Emerging
+AO;ANGOLA;800030156;Global Price List Emerging
+DZ;ALGERIA;800030156;Global Price List Emerging
+AF;AFGHANISTAN;800030156;Global Price List Emerging
+PS;PALESTINE;800030156;Global Price List Emerging
+OM;OMAN;800030156;Global Price List Emerging
+NG;NIGERIA;800030156;Global Price List Emerging
+NE;NIGER;800030156;Global Price List Emerging
+NA;NAMIBIA;800030156;Global Price List Emerging
+MZ;MOZAMBIQUE;800030156;Global Price List Emerging
+MA;MOROCCO;800030156;Global Price List Emerging
+MD;MOLDOVA;800030156;Global Price List Emerging
+YT;MAYOTTE;800030156;Global Price List Emerging
+MU;MAURITIUS;800030156;Global Price List Emerging
+MR;MAURITANIA;800030156;Global Price List Emerging
+ML;MALI;800030156;Global Price List Emerging
+MW;MALAWI;800030156;Global Price List Emerging
+MG;MADAGASCAR;800030156;Global Price List Emerging
+GH;GHANA;800030156;Global Price List Emerging
+GE;GEORGIA;800030156;Global Price List Emerging
+GM;GAMBIA;800030156;Global Price List Emerging
+GA;GABON;800030156;Global Price List Emerging
+ET;ETHIOPIA;800030156;Global Price List Emerging
+ER;ERITREA;800030156;Global Price List Emerging
+GQ;EQUATORIAL GUINEA;800030156;Global Price List Emerging
+EG;EGYPT;800030156;Global Price List Emerging
+DJ;DJIBOUTI;800030156;Global Price List Emerging
+CI;COTE D IVOIRE;800030156;Global Price List Emerging
+CD;CONGO DEM;800030156;Global Price List Emerging
+CG;CONGO;800030156;Global Price List Emerging
+KM;COMOROS;800030156;Global Price List Emerging
+ZW;ZIMBABWE;800030156;Global Price List Emerging
+ZM;ZAMBIA;800030156;Global Price List Emerging
+LY;LIBYA;800030156;Global Price List Emerging
+LR;LIBERIA;800030156;Global Price List Emerging
+LB;LEBANON;800030156;Global Price List Emerging
+KG;KYRGYZSTAN;800030156;Global Price List Emerging
+KW;KUWAIT;800030156;Global Price List Emerging
+KE;KENYA;800030156;Global Price List Emerging
+KZ;KAZAKHSTAN;800030156;Global Price List Emerging
+JO;JORDAN;800030156;Global Price List Emerging
+IQ;IRAQ;800030156;Global Price List Emerging
+IR;IRAN;800030156;Global Price List Emerging
+GW;GUINEA-BISSAU;800030156;Global Price List Emerging
+GN;GUINEA;800030156;Global Price List Emerging
+SS;SOUTH SUDAN;800030156;Global Price List Emerging
+SO;SOMALIA;800030156;Global Price List Emerging
+SL;SIERRA LEONE;800030156;Global Price List Emerging
+SC;SEYCHELLES;800030156;Global Price List Emerging
+SN;SENEGAL;800030156;Global Price List Emerging
+SA;SAUDI ARABIA;800030156;Global Price List Emerging
+ST;SAO TOME AND PRINCIPE;800030156;Global Price List Emerging
+SH;SAINT HELENA;800030156;Global Price List Emerging
+RW;RWANDA;800030156;Global Price List Emerging
+QA;QATAR;800030156;Global Price List Emerging
+YE;YEMEN;800030156;Global Price List Emerging
+EH;WESTERN SAHARA;800030156;Global Price List Emerging
+UZ;UZBEKISTAN;800030156;Global Price List Emerging
+AE;UNITED ARAB EMIRATES;800030156;Global Price List Emerging
+UA;UKRAINE;800030156;Global Price List Emerging
+UG;UGANDA;800030156;Global Price List Emerging
+TM;TURKMENISTAN;800030156;Global Price List Emerging
+TR;TURKEY;800030156;Global Price List Emerging
+TN;TUNISIA;800030156;Global Price List Emerging
+TG;TOGO;800030156;Global Price List Emerging
+TZ;TANZANIA;800030156;Global Price List Emerging
+TJ;TAJIKISTAN;800030156;Global Price List Emerging
+SY;SYRIA;800030156;Global Price List Emerging
+SD;SUDAN;800030156;Global Price List Emerging
+PK;PAKISTAN;800030156;Global Price List Emerging
+TD;CHAD;800030156;Global Price List Emerging
+CF;CENTRAL AFRICAN REPUBLIC;800030156;Global Price List Emerging
+RU;RUSSIA;800030157;Global Price List Russia
+KY;CAYMAN ISLANDS;1111;Global PriceList-Latin America
+VG;BRITISH VIRGIN ISLANDS;1111;Global PriceList-Latin America
+IO;BRITISH INDIAN OCEAN TERRITORY;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BR;BRAZIL;1111;Global PriceList-Latin America
+BV;BOUVET ISLAND;1111;Global PriceList-Latin America
+BO;BOLIVIA;1111;Global PriceList-Latin America
+BM;BERMUDA;1111;Global PriceList-Latin America
+BZ;BELIZE;1111;Global PriceList-Latin America
+BB;BARBADOS;1111;Global PriceList-Latin America
+BS;BAHAMAS;1111;Global PriceList-Latin America
+AW;ARUBA;1111;Global PriceList-Latin America
+AR;ARGENTINA;1111;Global PriceList-Latin America
+AG;ANTIGUA AND BARBUDA;1111;Global PriceList-Latin America
+AI;ANGUILLA;1111;Global PriceList-Latin America
+NI;NICARAGUA;1111;Global PriceList-Latin America
+AN;NETHERLANDS ANTILLES;1111;Global PriceList-Latin America
+MS;MONTSERRAT;1111;Global PriceList-Latin America
+MX;MEXICO;1111;Global PriceList-Latin America
+MQ;MARTINIQUE;1111;Global PriceList-Latin America
+GP;GUADELOUPE;1111;Global PriceList-Latin America
+GD;GRENADA;1111;Global PriceList-Latin America
+GF;FRENCH GUIANA;1111;Global PriceList-Latin America
+FK;FALKLAND ISLANDS;1111;Global PriceList-Latin America
+SV;EL SALVADOR;1111;Global PriceList-Latin America
+EC;ECUADOR;1111;Global PriceList-Latin America
+DO;DOMINICAN REPUBLIC;1111;Global PriceList-Latin America
+DM;DOMINICA;1111;Global PriceList-Latin America
+CU;CUBA;1111;Global PriceList-Latin America
+CR;COSTA RICA;1111;Global PriceList-Latin America
+CO;COLOMBIA;1111;Global PriceList-Latin America
+JM;JAMAICA;1111;Global PriceList-Latin America
+HN;HONDURAS;1111;Global PriceList-Latin America
+HT;HAITI;1111;Global PriceList-Latin America
+GY;GUYANA;1111;Global PriceList-Latin America
+GT;GUATEMALA;1111;Global PriceList-Latin America
+GS;SOUTH GEORGIA AND THE SOUTH SANDWICH;1111;Global PriceList-Latin America
+VC;SAINT VINCENT AND THE GRENADINES;1111;Global PriceList-Latin America
+PM;SAINT PIERRE AND MIQUELON;1111;Global PriceList-Latin America
+LC;SAINT LUCIA;1111;Global PriceList-Latin America
+KN;SAINT KITTS AND NEVIS;1111;Global PriceList-Latin America
+PR;PUERTO RICO;1111;Global PriceList-Latin America
+PE;PERU;1111;Global PriceList-Latin America
+PY;PARAGUAY;1111;Global PriceList-Latin America
+PA;PANAMA;1111;Global PriceList-Latin America
+YU;YUGOSLAVIA;1111;Global PriceList-Latin America
+VE;VENEZUELA;1111;Global PriceList-Latin America
+VI;US VIRGIN ISLANDS;1111;Global PriceList-Latin America
+UY;URUGUAY;1111;Global PriceList-Latin America
+UM;UNITED STATES MINOR OUTLYING ISLANDS;1111;Global PriceList-Latin America
+TC;TURKS AND CAICOS ISLANDS;1111;Global PriceList-Latin America
+TT;TRINIDAD AND TOBAGO;1111;Global PriceList-Latin America
+SJ;SVALBARD;1111;Global PriceList-Latin America
+SR;SURINAME;1111;Global PriceList-Latin America
+CL;CHILE;1111;Global PriceList-Latin America
+RU;RUSSIA;999999111;Global Russia DDP PL in USD
+RU;RUSSIA;999999113;Global Russia Service PL RUB
+CN;CHINA;1220;CHINA PRICE LIST
+JP;JAPAN;1501;Nihon Price List in USD
